@@ -1,0 +1,45 @@
+[
+	{
+		"profiles": [
+			{
+				"title": "Dr",
+				"name": "Erwin Esquivel Chávez",
+				"img": "e-esquivel",
+				"grade": "Odontologia General",
+				"university": "UAM",
+				"specialization": "Rehabilitacion Oral e Implantes",
+				"studies": "USAL - AOA",
+				"city": "Buenos Aires, Argentina"
+			},
+			{
+				"title": "Dra",
+				"name": "Ma. Ximena Urbina Ordóñez",
+				"img": "x-urbina",
+				"grade": "Odontologia General",
+				"university": "UAM",
+				"specialization": "Rehabilitacion Oral e Implantes",
+				"studies": "USAL - AOA",
+				"city": "Buenos Aires, Argentina"
+			}
+		]
+	},
+	{
+		"treatments": [
+			"Limpieza",
+			"Estética",
+			"Blanqueamiento",
+			"Endodoncia en una cita",
+			"Puentes y Coronas de Porcelana",
+			"Implantes Dentales",
+			"Cirugía Oral",
+			"Ortodoncia",
+			"Periodoncia",
+			"Odontopediatría"
+		]
+	},
+	{
+		"contact": {
+			"address": "Iglesia Xalteva 1c. al Este, 1c. al Norte, Calle \"El Palenque\", Granada, Nicaragua"
+		}
+	}
+]

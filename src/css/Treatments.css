@@ -1,0 +1,17 @@
+.treatments-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	/* grid-gap: 16px; */
+	grid-column-gap: 16px;
+}
+
+.list-group-item {
+	cursor: pointer;
+	border: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+@media screen and (max-width: 768px) {
+	.treatments-container {
+		grid-template-columns: 1fr;
+	}
+}
