@@ -1,13 +1,13 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Logo from '../img/logo-texto.png';
 import '../css/Navbar.css';
 import LanguageBtn from './LanguageBtn';
 
-const Navbar = props => {
+const Navbar = (props) => {
 	const alert =
 		props.lang === 'ES'
-			? 'Por medidas de seguridad y pensando en la salud de nuestros pacientes estaremos cerrados por dos semanas, atendiendo únicamente casos de emergencia.'
-			: 'For security measures and thinking about the health of our patients, we will be closed for two weeks, attending emergency cases only.';
+			? 'Por medidas de seguridad y pensando en la salud de nuestros pacientes estaremos cerrados hasta nuevo aviso, atendiendo únicamente casos de emergencia.'
+			: 'For security measures and thinking about the health of our patients, we will be closed until further notice, attending emergency cases only.';
 
 	return (
 		<div className='navbar-container'>

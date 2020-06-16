@@ -10,8 +10,8 @@
 }
 
 .coronavirus-alert {
-	background-color: rgb(196, 196, 196);
-	color: red;
+	background-color: red;
+	color: white;
 	font-weight: bold;
 	padding: 4px 8px;
 }
