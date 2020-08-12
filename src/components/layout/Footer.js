@@ -1,7 +1,7 @@
 import React from 'react';
-import '../css/Footer.css';
+import '../../css/Footer.css';
 
-const Footer = ({ lang }) => {
+function Footer({ lang }) {
 	return (
 		<footer className='footer'>
 			<h2 className='footer-title'>{lang === 'ES' ? 'Contacto' : 'Contact'}</h2>

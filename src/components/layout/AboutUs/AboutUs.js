@@ -1,13 +1,13 @@
 import React from 'react';
 import Profiles from './Profiles/Profiles';
 import Treatments from './Treatments/Treatments';
-import '../../css/AboutUs.css';
+import '../../../css/AboutUs.css';
 
-const AboutUs = props => {
+function AboutUs({profiles, treatments, lang}) {
 	return (
 		<section className='about-us'>
-			<Profiles profiles={props.profiles} lang={props.lang}/>
-			<Treatments treatments={props.treatments} lang={props.lang}/>
+			<Profiles profiles={profiles} lang={lang}/>
+			<Treatments treatments={treatments} lang={lang}/>
 		</section>
 	);
 };

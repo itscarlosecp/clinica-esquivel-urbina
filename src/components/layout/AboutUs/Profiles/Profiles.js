@@ -1,12 +1,12 @@
 import React from 'react';
 import Profile from './Profile';
 
-const Profiles = props => {
+function Profiles({lang, profiles}) {
 	return (
 		<div>
-			<h2 className='section-title'>{props.lang === 'ES' ? 'Nosotros' : 'About Us'}</h2>
+			<h2 className='section-title'>{lang === 'ES' ? 'Nosotros' : 'About Us'}</h2>
 			<div className='profiles-container'>
-				{props.profiles.map((profile, index) => (
+				{profiles.map((profile, index) => (
 					<Profile key={index} profile={profile} />
 				))}
 			</div>

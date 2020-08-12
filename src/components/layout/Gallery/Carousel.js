@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import '../../css/Carousel.css';
+import '../../../css/Carousel.css';
 
-const Gallery = props => {
+function Gallery(props) {
 	const [index, setIndex] = useState(0);
 
 	const handleSelect = (selectedIndex, e) => {
@@ -22,35 +22,35 @@ const Gallery = props => {
 				<Carousel.Item className='carousel-item'>
 					<img
 						className='d-block w-100 carousel-img'
-						src={require('../../img/gallery/img-0.jpeg')}
+						src={require('../../../img/gallery/img-0.jpeg')}
 						alt='First slide'
 					/>
 				</Carousel.Item>
 				<Carousel.Item className='carousel-item'>
 					<img
 						className='d-block w-100 carousel-img'
-						src={require('../../img/gallery/img-2.jpeg')}
+						src={require('../../../img/gallery/img-2.jpeg')}
 						alt='Third slide'
 					/>
 				</Carousel.Item>
 				<Carousel.Item className='carousel-item'>
 					<img
 						className='d-block w-100 carousel-img'
-						src={require('../../img/gallery/img-3.jpeg')}
+						src={require('../../../img/gallery/img-3.jpeg')}
 						alt='Third slide'
 					/>
 				</Carousel.Item>
 				<Carousel.Item className='carousel-item'>
 					<img
 						className='d-block w-100 carousel-img'
-						src={require('../../img/gallery/img-4.jpeg')}
+						src={require('../../../img/gallery/img-4.jpeg')}
 						alt='Third slide'
 					/>
 				</Carousel.Item>
 				<Carousel.Item className='carousel-item'>
 					<img
 						className='d-block w-100 carousel-img'
-						src={require('../../img/gallery/img-6.jpeg')}
+						src={require('../../../img/gallery/img-6.jpeg')}
 						alt='Third slide'
 					/>
 				</Carousel.Item>

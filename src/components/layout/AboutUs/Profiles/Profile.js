@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Profile = ({ profile }) => {
-	const {
+function Profile({
+	profile: {
 		title,
 		name,
 		img,
@@ -10,8 +10,8 @@ const Profile = ({ profile }) => {
 		specialization,
 		studies,
 		city
-	} = profile;
-
+	}
+}) {
 	return (
 		<div className='profile-card'>
 			<div className={`profile-picture ${img}`}></div>
@@ -29,6 +29,6 @@ const Profile = ({ profile }) => {
 			</div>
 		</div>
 	);
-};
+}
 
 export default Profile;

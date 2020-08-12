@@ -1,14 +1,14 @@
 import React from 'react';
-import '../../css/LocationMap.css';
+import '../../../css/LocationMap.css';
 import { Map, Marker, TileLayer } from 'react-leaflet';
 
-const LocationMap = props => {
+function LocationMap({lang, address}) {
 	const position = [11.92939, -85.959212];
 
 	return (
 		<section>
 			<h2 className='section-title'>
-				{props.lang === 'ES' ? 'Encuéntranos' : 'Find Us'}
+				{lang === 'ES' ? 'Encuéntranos' : 'Find Us'}
 			</h2>
 			<div id='map'>
 				<Map
@@ -23,7 +23,7 @@ const LocationMap = props => {
 					<Marker position={position} />
 				</Map>
 			</div>
-			<p className='location'>{props.address}</p>
+			<p className='location'>{address}</p>
 		</section>
 	);
 };
