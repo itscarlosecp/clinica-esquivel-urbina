@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f88fd628.chunk.css",
+    "main.js": "/static/js/main.79d5b4af.chunk.js",
+    "main.js.map": "/static/js/main.79d5b4af.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4766d814.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4766d814.js.map",
+    "static/js/2.300a7431.chunk.js": "/static/js/2.300a7431.chunk.js",
+    "static/js/2.300a7431.chunk.js.map": "/static/js/2.300a7431.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f2c0f408ed9d2ca59919613091a2d8c8.js": "/precache-manifest.f2c0f408ed9d2ca59919613091a2d8c8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f88fd628.chunk.css.map": "/static/css/main.f88fd628.chunk.css.map",
+    "static/js/2.300a7431.chunk.js.LICENSE.txt": "/static/js/2.300a7431.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/static/media/banner-img.880680d0.jpeg",
+    "static/media/AboutUs.css": "/static/media/x-urbina.b2abbda0.jpeg",
+    "static/media/img-0.jpeg": "/static/media/img-0.dbd69624.jpeg",
+    "static/media/img-2.jpeg": "/static/media/img-2.74bae6b4.jpeg",
+    "static/media/img-3.jpeg": "/static/media/img-3.d68eb657.jpeg",
+    "static/media/img-4.jpeg": "/static/media/img-4.70dcd99f.jpeg",
+    "static/media/img-6.jpeg": "/static/media/img-6.11757b0d.jpeg",
+    "static/media/logo-texto.png": "/static/media/logo-texto.9c16d13d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4766d814.js",
+    "static/js/2.300a7431.chunk.js",
+    "static/css/main.f88fd628.chunk.css",
+    "static/js/main.79d5b4af.chunk.js"
+  ]
+}
