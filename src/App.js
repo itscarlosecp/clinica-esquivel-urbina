@@ -5,12 +5,12 @@ import * as DataES from './resources/data_es.json';
 import * as DataEN from './resources/data_en.json';
 
 //@Components
-import Navbar from './layout/Navbar';
-import Header from './layout/Header';
-import AboutUs from './layout/AboutUs/AboutUs';
-import Carousel from './layout/Gallery/Carousel';
-import Map from './layout/Map/Map';
-import Footer from './layout/Footer';
+import Navbar from './components/layout/Navbar';
+import Header from './components/layout/Header';
+import AboutUs from './components/layout/AboutUs/AboutUs';
+import Carousel from './components/layout/Gallery/Carousel';
+import Map from './components/layout/Map/Map';
+import Footer from './components/layout/Footer';
 
 class App extends Component {
 	state = {
