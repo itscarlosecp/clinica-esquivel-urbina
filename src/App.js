@@ -4,7 +4,7 @@ import './App.css';
 import * as DataES from './resources/data_es.json';
 import * as DataEN from './resources/data_en.json';
 
-//@Components
+// &Components
 import Navbar from './components/layout/Navbar';
 import Header from './components/layout/Header';
 import AboutUs from './components/layout/AboutUs/AboutUs';
@@ -30,7 +30,7 @@ class App extends Component {
 		});
 	}
 
-	changeLang = language => {
+	changeLang = (language) => {
 		this.setState({ language });
 		const res = language === 'ES' ? DataES : DataEN;
 		const [...data] = res.default;
@@ -42,27 +42,22 @@ class App extends Component {
 	};
 
 	render() {
+		const { language, profiles, treatments, loading, contact } = this.state;
+
 		return (
 			<div className='App'>
-				<Navbar lang={this.state.language} changeLang={this.changeLang} />
-				<Header lang={this.state.language} />
+				<Navbar lang={language} changeLang={this.changeLang} />
+				<Header lang={language} />
 				<div className='wrapper'>
 					<AboutUs
-						profiles={this.state.profiles}
-						treatments={this.state.treatments}
-						lang={this.state.language}
+						profiles={profiles}
+						treatments={treatments}
+						lang={language}
 					/>
-					<Carousel lang={this.state.language} />
-					<Map
-						address={this.state.contact.address}
-						lang={this.state.language}
-					/>
+					<Carousel lang={language} />
+					<Map address={contact.address} lang={language} />
 				</div>
-				<Footer
-					contact={this.state.contact}
-					lang={this.state.language}
-					loading={this.state.loading}
-				/>
+				<Footer contact={contact} lang={language} loading={loading} />
 			</div>
 		);
 	}
