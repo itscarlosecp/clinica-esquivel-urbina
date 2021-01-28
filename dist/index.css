@@ -31168,6 +31168,7 @@ video {
 }
 
 .blur {
+  background-color: transparent;
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
 }
