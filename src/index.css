@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 .blur {
-	@apply bg-transparent;
 	backdrop-filter: blur(8px);
 }

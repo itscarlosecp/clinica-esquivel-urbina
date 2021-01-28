@@ -1,6 +1,6 @@
 class Navbar {
 	private component: HTMLElement;
-	private readonly transPosition: number = 200;
+	private readonly transPosition: number = 300;
 
 	constructor() {
 		this.component = document.querySelector("nav")! as HTMLElement;
@@ -10,10 +10,11 @@ class Navbar {
 	setTransparency() {
 		window.addEventListener("scroll", (_e: Event) => {
 			if (window.scrollY > this.transPosition) {
-				this.component.classList.add("blur");
-			} else {
-				this.component.classList.contains("blur") &&
-					this.component.classList.remove("blur");
+				this.component.classList.remove("bg-white");
+				this.component.classList.add("bg-transparent");
+			} else if (this.component.classList.contains("bg-transparent")) {
+				this.component.classList.remove("bg-transparent");
+				this.component.classList.add("bg-white");
 			}
 		});
 	}
