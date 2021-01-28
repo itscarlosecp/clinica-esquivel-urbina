@@ -1,7 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# tailwind styles
+# dist files 
 /dist/index.css
+/dist/index.js
 
 # dependencies
 /node_modules

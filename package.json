@@ -5,6 +5,7 @@
 		"tailwindcss": "^2.0.2"
 	},
 	"scripts": {
+		"build": "tsc && NODE_ENV=production npm run tailwind",
 		"tailwind": "tailwindcss build ./src/index.css -o ./dist/index.css"
 	}
 }
